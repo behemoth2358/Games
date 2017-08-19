@@ -10,6 +10,8 @@ class Game:
         else:
             print ("Snake game started successfully!")
 
+        pygame.display.set_caption('Snake')
+
         self.__surface = pygame.display.set_mode((720,460))
         self.__fps_controller = pygame.time.Clock()
 

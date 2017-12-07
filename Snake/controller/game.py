@@ -84,7 +84,7 @@ class Game:
 
             self.__show_score()
 
-            if (self.__snake_pos[0] > 710 or self.__snake_pos[1] < 0):
+            if (self.__snake_pos[0] > 710 or self.__snake_pos[0] < 0):
                 self.__game_over()
             if (self.__snake_pos[1] > 450 or self.__snake_pos[1] < 0):
                 self.__game_over()
